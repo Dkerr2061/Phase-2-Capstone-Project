@@ -8,7 +8,7 @@ import Home from './components/Home';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import MovieList from './components/MovieList';
-import NewMovieForm from './components/NewMovieForm';
+import NewMovieForm from './pages/NewMovieForm';
 
 const router = createBrowserRouter([
   {

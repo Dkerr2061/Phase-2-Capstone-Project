@@ -231,6 +231,17 @@
       "description": "It is the year 2029. Technology has advanced so far that cyborgs are commonplace. In addition, human brains can connect to the internet directly. Major Motoko Kusanagi is an officer in Section 9, an elite, secretive police division that deals with special operations, including counter terrorism and cyber crime. She is currently on the trail of the Puppet Master, a cyber criminal who hacks into the brains of cyborgs in order to obtain information and to commit other crimes.",
       "image": "https://images.fandango.com/ImageRenderer/820/0/redesign/static/img/default_poster.png/0/images/masterrepository/fandango/728/gits-400x600.jpg",
       "favorite": false
+    },
+    {
+      "id": "fda3",
+      "name": "Berserk: The Golden Age Arc III - The Advent",
+      "year": 2013,
+      "actor": "Hiroaki Iwanaga",
+      "director": "Toshiyuki Kubooka",
+      "genre": "Fantasy",
+      "description": "A year has passed since Guts parted ways with Griffith. The Band of the Hawks is plotting a rescue mission to save Griffith who is confined to prison. One night, a group of assassins attack the band, and a bloody battle for survival begins. Just as things are beginning to look grim for them, Guts reappears and saves them. Guts rejoins his friends and embarks on a mission to save Griffith, however.",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDYxMmY3NGQtM2E2OC00ODNjLWFiNmQtNmIzNjljMTM1NWMyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc2NjA5MTU@._V1_.jpg",
+      "favorite": false
     }
   ],
   "favoriteList": [],
