@@ -7,6 +7,8 @@ import ErrorPage from './components/ErrorPage';
 import Home from './components/Home';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import MovieList from './components/MovieList';
+import NewMovieForm from './components/NewMovieForm';
 
 const router = createBrowserRouter([
   {
@@ -16,7 +18,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home/>
+        element: <MovieList/>
       },
       {
         path: "/favorite_movies",
@@ -24,7 +26,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/add_movies",
-        element: <h1>Add movies here</h1>
+        element: <NewMovieForm/>
       },
       {
         path: "/suggestions",
