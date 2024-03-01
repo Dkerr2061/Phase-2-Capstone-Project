@@ -8,7 +8,8 @@
       "director": "James Cameron",
       "genre": "Sci-Fi",
       "description": "57 years after Ellen Ripley had a close encounter with the reptilian alien creature from the first movie, she is called back, this time, to help a group of highly trained colonial marines fight off against the sinister extraterrestrials. But this time, the aliens have taken over a space colony on the moon LV-426. When the colonial marines are called upon to search the deserted space colony, they later find out that they are up against more than what they bargained for. Using specially modified machine guns and enough firepower, it's either fight or die as the space marines battle against the aliens. As the Marines do their best to defend themselves, Ripley must attempt to protect a young girl who is the sole survivor of the nearly wiped out space colony.",
-      "image": "https://movieposters2.com/images/1375483-b.jpg"
+      "image": "https://movieposters2.com/images/1375483-b.jpg",
+      "favorite": false
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
       "director": "Quentin Tarantino",
       "genre": "Crime",
       "description": "Jules Winnfield (Samuel L. Jackson) and Vincent Vega (John Travolta) are two hitmen who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace (Ving Rhames). Wallace has also asked Vincent to take his wife Mia (Uma Thurman) out a few days later when Wallace himself will be out of town. Butch Coolidge (Bruce Willis) is an aging boxer who is paid by Wallace to lose his fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiJsA2mWrlJFCi39GF3BWF_t9UgeLgUtXD3H7JTNW3Nkv9evDIP7PW0tzN9McQizmB2Xg&usqp=CAU"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiJsA2mWrlJFCi39GF3BWF_t9UgeLgUtXD3H7JTNW3Nkv9evDIP7PW0tzN9McQizmB2Xg&usqp=CAU",
+      "favorite": false
     },
     {
       "id": 3,
@@ -28,7 +30,8 @@
       "director": "David Fincher",
       "genre": "Mystery",
       "description": "Nicholas Van Orton is a very wealthy San Francisco banker, but he is an absolute loner, even spending his birthday alone. In the year of his 48th birthday (the age his father committed suicide) his brother Conrad, who has gone long ago and surrendered to addictions of all kinds, suddenly returns and gives Nicholas a card giving him entry to unusual entertainment provided by something called Consumer Recreation Services (CRS). Giving in to curiosity, Nicholas visits CRS and all kinds of weird and bad things start to happen to him.",
-      "image": "https://m.media-amazon.com/images/M/MV5BOTc5ZGEyZTctOThhYi00NGNiLWIwYzEtYjJkZDNiMjA2MDIwXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_FMjpg_UX1000_.jpg"
+      "image": "https://m.media-amazon.com/images/M/MV5BOTc5ZGEyZTctOThhYi00NGNiLWIwYzEtYjJkZDNiMjA2MDIwXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_FMjpg_UX1000_.jpg",
+      "favorite": false
     },
     {
       "id": 4,
@@ -38,7 +41,8 @@
       "director": "D.J. Caruso",
       "genre": "Drama",
       "description": "After the murder of his beloved wife, Danny Parker is set adrift in a world where nothing is as it seems. On his journey he befriends slacker Jimmy the Finn and becomes involved in rescuing his neighbor Colette from her own demons. Danny is antagonized by undercover narcotics agents and sadistic dealer Pooh-Bear.",
-      "image": "https://m.media-amazon.com/images/M/MV5BMjE5ODgwNzYyN15BMl5BanBnXkFtZTYwNDE3OTg5._V1_.jpg"
+      "image": "https://m.media-amazon.com/images/M/MV5BMjE5ODgwNzYyN15BMl5BanBnXkFtZTYwNDE3OTg5._V1_.jpg",
+      "favorite": false
     },
     {
       "id": 5,
@@ -48,7 +52,8 @@
       "director": "Hayao Miyazaki",
       "genre": "Fantasy",
       "description": "While protecting his village from rampaging boar-god/demon, a confident young warrior, Ashitaka, is stricken by a deadly curse. To save his life, he must journey to the forests of the west. Once there, he's embroiled in a fierce campaign that humans were waging on the forest. The ambitious Lady Eboshi and her loyal clan use their guns against the gods of the forest and a brave young woman, Princess Mononoke, who was raised by a wolf-god. Ashitaka sees the good in both sides and tries to stem the flood of blood. This is met by animosity by both sides as they each see him as supporting the enemy.",
-      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/47e506d2-e6f3-4322-9d6a-8407e7a3376e/d225fql-e4558b4a-0431-4685-93b7-789fd5af5520.jpg/v1/fill/w_800,h_1000,q_75,strp/princess_mononoke_movie_poster_by_alone_sama_d225fql-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ3ZTUwNmQyLWU2ZjMtNDMyMi05ZDZhLTg0MDdlN2EzMzc2ZVwvZDIyNWZxbC1lNDU1OGI0YS0wNDMxLTQ2ODUtOTNiNy03ODlmZDVhZjU1MjAuanBnIiwiaGVpZ2h0IjoiPD0xMDAwIiwid2lkdGgiOiI8PTgwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC80N2U1MDZkMi1lNmYzLTQzMjItOWQ2YS04NDA3ZTdhMzM3NmVcL2Fsb25lLXNhbWEtNC5wbmciLCJvcGFjaXR5Ijo5NSwicHJvcG9ydGlvbnMiOjAuNDUsImdyYXZpdHkiOiJjZW50ZXIifX0.g0TwVf3B9lZ-j1JfAWUUCyxVKokgd92ZsUz70KKC8EA"
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/47e506d2-e6f3-4322-9d6a-8407e7a3376e/d225fql-e4558b4a-0431-4685-93b7-789fd5af5520.jpg/v1/fill/w_800,h_1000,q_75,strp/princess_mononoke_movie_poster_by_alone_sama_d225fql-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ3ZTUwNmQyLWU2ZjMtNDMyMi05ZDZhLTg0MDdlN2EzMzc2ZVwvZDIyNWZxbC1lNDU1OGI0YS0wNDMxLTQ2ODUtOTNiNy03ODlmZDVhZjU1MjAuanBnIiwiaGVpZ2h0IjoiPD0xMDAwIiwid2lkdGgiOiI8PTgwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC80N2U1MDZkMi1lNmYzLTQzMjItOWQ2YS04NDA3ZTdhMzM3NmVcL2Fsb25lLXNhbWEtNC5wbmciLCJvcGFjaXR5Ijo5NSwicHJvcG9ydGlvbnMiOjAuNDUsImdyYXZpdHkiOiJjZW50ZXIifX0.g0TwVf3B9lZ-j1JfAWUUCyxVKokgd92ZsUz70KKC8EA",
+      "favorite": false
     },
     {
       "id": 6,
@@ -58,7 +63,8 @@
       "director": "Isao Takahata",
       "genre": "War",
       "description": "The story of Seita and Setsuko, two young Japanese siblings, living in the declining days of World War II. When an American firebombing separates the two children from their parents, the two siblings must rely completely on one another while they struggle to fight for their survival.",
-      "image": "https://m.media-amazon.com/images/I/71+Uad84h-L._AC_UF894,1000_QL80_.jpg"
+      "image": "https://m.media-amazon.com/images/I/71+Uad84h-L._AC_UF894,1000_QL80_.jpg",
+      "favorite": false
     },
     {
       "id": 7,
@@ -68,7 +74,8 @@
       "director": "Guy Ritchie",
       "genre": "Crime",
       "description": "A talented American graduate of Oxford, using his unique skills, and audacity, creates a marijuana empire using the estates of impoverished British aristocrats. However, when he tries to sell his empire to a fellow American billionaire, a chain of events unfolds, involving blackmail, deception, mayhem and murder between street thugs, Russian oligarchs, Triad gangsters and gutter journalists.",
-      "image": "https://m.media-amazon.com/images/M/MV5BMWJlMzkzNjgtNzRmYy00MjIyLTk0ZTEtYTg5OWM4YWRjMTQ0XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg"
+      "image": "https://m.media-amazon.com/images/M/MV5BMWJlMzkzNjgtNzRmYy00MjIyLTk0ZTEtYTg5OWM4YWRjMTQ0XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg",
+      "favorite": false
     },
     {
       "id": 8,
@@ -78,7 +85,8 @@
       "director": "Hideaki Anno",
       "genre": "Drama",
       "description": "After the defeat of the final Angel, Shinji Ikari falls into a deep depression. When SEELE orders the JSSDF to make a surprise attack on NERV's headquarters, Gendo Ikari retreats down into Terminal Dogma along with Rei Ayanami, where he begins to advance his own plans for the Human Instrumentality Project. Eventually, Shinji is pushed to the limits of his sanity as he is forced to decide the fate of humanity.",
-      "image": "https://m.media-amazon.com/images/I/51utrZtN6FL.jpg"
+      "image": "https://m.media-amazon.com/images/I/51utrZtN6FL.jpg",
+      "favorite": false
     },
     {
       "id": 9,
@@ -88,7 +96,8 @@
       "director": "Guy Ritchie",
       "genre": "Crime",
       "description": "Turkish and his close friend/accomplice Tommy get pulled into the world of match fixing by the notorious Brick Top. Things get complicated when the boxer they had lined up gets badly beaten by Mickey, who comes into the equation after Turkish, an unlicensed boxing promoter wants to buy a caravan off of Travellers. They then try to convince Mickey not only to fight for them, but to lose for them too. Whilst all this is going on, a huge diamond heist takes place, and a fistful of motley characters enter the story, including 'Cousin Avi', 'Boris The Blade', 'Franky Four Fingers' and 'Bullet Tooth Tony'. Things go from bad to worse as it all becomes about the money, the guns, and the damned dog.",
-      "image": "https://image.tmdb.org/t/p/original/rpijZYFjW40WMUkZSusmYxt9zbN.jpg"
+      "image": "https://image.tmdb.org/t/p/original/rpijZYFjW40WMUkZSusmYxt9zbN.jpg",
+      "favorite": false
     },
     {
       "id": 10,
@@ -99,108 +108,131 @@
       "secondDirector": "Hiroyuki Okiura",
       "genre": "Drama",
       "description": "Ten years after the end of World War II; anti-terror policeman Fuse gets suspended from service after the suicide by self-detonation of a young terrorist girl during an operation, as he failed to shoot her in time. When he tries to gather some information about her, he meets her sister and befriends with her. Both get dragged into the rivalries between the administration of the police and the counter terrorism commando unit 'Jin Roh' (human wolves).",
-      "image": "https://ih1.redbubble.net/image.3359047430.7480/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+      "image": "https://ih1.redbubble.net/image.3359047430.7480/flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
+      "favorite": false
     },
     {
       "id": 11,
       "name": "Deadpool",
-      "year": "2016",
+      "year": 2016,
       "actor": "Ryan Reynolds",
       "director": "Tim Miller",
       "genre": "Comedy",
       "description": "This is the origin story of former Special Forces operative turned mercenary Wade Wilson, who after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
-      "image": "https://m.media-amazon.com/images/I/51Gh9OaWVcL._AC_UF1000,1000_QL80_.jpg"
+      "image": "https://m.media-amazon.com/images/I/51Gh9OaWVcL._AC_UF1000,1000_QL80_.jpg",
+      "favorite": false
     },
     {
       "id": 12,
       "name": "Lock, Stock and Two Smoking Barrels",
-      "year": "1998",
+      "year": 1998,
       "actor": "Jason Flemyng",
       "director": "Guy Ritchie",
       "genre": "Crime",
       "description": "Four Jack-the-lads find themselves heavily - seriously heavily - in debt to an East End hard man and his enforcers after a crooked card game. Overhearing their neighbours in the next flat plotting to hold up a group of out-of-their-depth drug growers, our heroes decide to stitch up the robbers in turn. In a way the confusion really starts when a pair of antique double-barrelled shotguns go missing in a completely different scam.",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTAyN2JmZmEtNjAyMy00NzYwLThmY2MtYWQ3OGNhNjExMmM4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg"
+      "image": "https://m.media-amazon.com/images/M/MV5BMTAyN2JmZmEtNjAyMy00NzYwLThmY2MtYWQ3OGNhNjExMmM4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg",
+      "favorite": false
     },
     {
       "id": 13,
       "name": "Akira",
-      "year": "1988",
+      "year": 1988,
       "actor": "Mitsuo Iwata",
       "director": "Katsuhiro Ôtomo",
       "genre": "Thriller",
       "description": "2019. Thirty one years after being destroyed during World War III, Tokyo (now 'Neo-Tokyo') has been rebuilt and is a thriving metropolis. Shotaro Kaneda is the leader of a biker gang. His friend Tetsuo is injured in an accident and taken to a top-secret government facility. He develops telekinetic powers but decides to use them for evil rather than good. He has the same powers as Akira, the force that destroyed Tokyo in 1988, and now it appears that history will repeat itself.",
-      "image": "https://m.media-amazon.com/images/I/61cRwtDzuTL._AC_UF894,1000_QL80_.jpg"
+      "image": "https://m.media-amazon.com/images/I/61cRwtDzuTL._AC_UF894,1000_QL80_.jpg",
+      "favorite": false
     },
     {
       "id": 14,
       "name": "Zombieland",
-      "year": "2009",
+      "year": 2009,
       "actor": "Jesse Eisenberg",
       "director": "Ruben Fleischer",
       "genre": "Comedy",
       "description": "Searching for family. In the early twenty-first century, zombies have taken over America. A shy and college student in Texas has survived by following his 30 rules: like \"look in the back seat,\" \"double-tap,\" \"avoid public restrooms.\" He decides to travel to Ohio to see if his parents are alive. He gets a ride with a savage, brutal zombie-killer headed for Florida, and soon they confront a young woman whose sister has been bitten by a zombie and wants to be put out of her suffering. The sisters were headed to an LA park with atractions they've heard is without a zombie.",
-      "image": "https://m.media-amazon.com/images/I/81baQUrM+TL._AC_UF894,1000_QL80_.jpg"
+      "image": "https://m.media-amazon.com/images/I/81baQUrM+TL._AC_UF894,1000_QL80_.jpg",
+      "favorite": false
     },
     {
       "id": 15,
       "name": "Iria: Zeiram the Bounty Hunter",
-      "year": "1994",
+      "year": 1994,
       "actor": "Aya Hisakawa",
       "director": "Tetsurō Amino",
       "genre": "Sci-Fi",
       "description": "Iria is a newly-certified monster hunter who saves the life of a scientist working on the \"Zeiram Project.\" Zeiram has been terrorizing local planets and kidnapping people to absorb their life force and clone them. When Iria meets up with a clone of her brother, her resolve is tested. Could her brother still be alive? Her friends help her track down the beast only to discover that it is calling for reinforcements. Iria must enter into a final showdown with Zeiram to save the planet and discover the truth about her missing brother.",
-      "image": "https://m.media-amazon.com/images/M/MV5BNTIxYzhiMDMtZjJhNC00ZjQ0LWIyNzgtNmM3ZmNkYjljYmMyXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_FMjpg_UX1000_.jpg"
+      "image": "https://m.media-amazon.com/images/M/MV5BNTIxYzhiMDMtZjJhNC00ZjQ0LWIyNzgtNmM3ZmNkYjljYmMyXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_FMjpg_UX1000_.jpg",
+      "favorite": false
     },
     {
       "id": 16,
       "name": "Beverly Hills Cop",
-      "year": "1984",
+      "year": 1984,
       "actor": "Eddie Murphy",
       "director": "Martin Brest",
       "genre": "Comedy",
       "description": "After the murder of his childhood friend, the slick Detroit detective, Axel Foley, heads to sunny Beverly Hills, on a one-man mission to ferret out the killer and bring him to justice. Before long, Axel and his unorthodox methods unearth the lucrative drug operation of the powerful local crime kingpin, Victor Maitland; however, Foley, too, will find himself in deep trouble, as Lieutenant Andrew Bogomil wants him out of town. Now, Axel will have to team up with Detectives, John Taggart, and Billy Rosewood, to shed light on the thick conspiracy, and finish what he has started. Will Foley's total disregard for proper procedure bear fruit?",
-      "image": "https://m.media-amazon.com/images/I/8112Fu8+aZL.jpg"
+      "image": "https://m.media-amazon.com/images/I/8112Fu8+aZL.jpg",
+      "favorite": false
     },
     {
       "id": 17,
       "name": "Drive",
-      "year": "2011",
+      "year": 2011,
       "actor": "Ryan Gosling",
       "director": "Nicolas Winding Refn",
       "genre": "Drama",
       "description": "This action drama follows a mysterious man who has multiple jobs as a garage mechanic, a Hollywood stuntman and a getaway driver seems to be trying to escape his shady past as he falls for his neighbor - whose husband is in prison and who's looking after her child alone. Meanwhile, his garage mechanic boss is trying to set up a race team using gangland money, which implicates our driver as he is to be used as the race team's main driver. Our hero gets more than he bargained for when he meets the man who is married to the woman he loves.",
-      "image": "https://m.media-amazon.com/images/I/91vya3UmldL._AC_UF894,1000_QL80_.jpg"
+      "image": "https://m.media-amazon.com/images/I/91vya3UmldL._AC_UF894,1000_QL80_.jpg",
+      "favorite": false
     },
     {
       "id": 18,
       "name": "Suzume",
-      "year": "2022",
+      "year": 2022,
       "actor": "Nanoka Hara",
       "director": " Makoto Shinkai",
       "genre": "Fantasy",
       "description": "Suzume, a 17-year-old girl who lives in a quiet town in Kyushu, meets a young man on a journey \"looking for doors.\" Suzume follows him to a dilapidated building in the mountains and finds a free-standing, undisturbed door as if \"it\" alone were saved from devastation. Suzume feels drawn by an invisible power and reaches out to the door. Soon, doors all over Japan start opening one after another. The doors that opened must be closed to shut out calamity that lies on the other side. The places she wanders into have a sky where all hours of the day seem to blend together. Beckoned by the mysterious doors, Suzume's \"journey of closing doors\" begins.",
-      "image": "https://i.ebayimg.com/images/g/bnAAAOSw3HdkTvqm/s-l1200.jpg"
+      "image": "https://i.ebayimg.com/images/g/bnAAAOSw3HdkTvqm/s-l1200.jpg",
+      "favorite": false
     },
     {
       "id": 19,
       "name": "Borat",
-      "year": "2006",
+      "year": 2006,
       "actor": "Sacha Baron Cohen",
       "director": "Larry Charles",
       "genre": "Comedy",
       "description": "Borat Sagdiyev is a TV reporter of a popular show in Kazakhstan as Kazakhstan's sixth most famous man and a leading journalist. He is sent from his home to America by his government to make a documentary about American society and culture. Borat takes a course in New York City to understand American humor. While watching Baywatch on TV, Borat discovers how beautiful their women are in the form of C. J. Parker, who was played by actress Pamela Anderson who hails from Malibu, California. He decides to go on a cross-country road trip to California in a quest to make her his wife and take her back to his country. On his journey Borat and his producer encounter a country full of strange and wonderful Americans, real people in real chaotic situations with hysterical consequences.",
-      "image": "https://m.media-amazon.com/images/I/718wPxP90CL._AC_UF894,1000_QL80_.jpg"
+      "image": "https://m.media-amazon.com/images/I/718wPxP90CL._AC_UF894,1000_QL80_.jpg",
+      "favorite": false
     },
     {
       "id": "004d",
       "name": "Oldboy",
-      "year": "2003",
+      "year": 2003,
       "actor": "Choi Min-sik",
       "director": "Park Chan-wook",
       "genre": "Mystery",
       "description": "Oh Dae-Su, an obnoxious drunk abducted on a rainy night in 1988, wakes up in a strange, windowless hotel room. Kept under lock and key for an unknown reason, Oh Dae-Su's invisible captors keep him fed and systematically sedated to avert suicide, providing only a colour television to keep him company. And after fifteen long years in captivity, perplexed Oh Dae-Su finds himself released. Now, his pitiless abductors encourage Oh Dae-Su to track down the ones behind the mysterious kidnapping and finally get his brutal, longed-for revenge on the unknown tormentor. However, who would hate Oh Dae-Su so much that he would deny him a quick and clean death?",
-      "image": "https://m.media-amazon.com/images/I/51x2uSLzv3L._AC_UF894,1000_QL80_.jpg"
+      "image": "https://m.media-amazon.com/images/I/51x2uSLzv3L._AC_UF894,1000_QL80_.jpg",
+      "favorite": false
+    },
+    {
+      "id": "4c90",
+      "name": "Ghost in the Shell",
+      "year": 1995,
+      "actor": "Atsuko Tanaka",
+      "director": "Mizuho Nishikubo",
+      "genre": "Sci-Fi",
+      "description": "It is the year 2029. Technology has advanced so far that cyborgs are commonplace. In addition, human brains can connect to the internet directly. Major Motoko Kusanagi is an officer in Section 9, an elite, secretive police division that deals with special operations, including counter terrorism and cyber crime. She is currently on the trail of the Puppet Master, a cyber criminal who hacks into the brains of cyborgs in order to obtain information and to commit other crimes.",
+      "image": "https://images.fandango.com/ImageRenderer/820/0/redesign/static/img/default_poster.png/0/images/masterrepository/fandango/728/gits-400x600.jpg",
+      "favorite": false
     }
   ],
-  "favoriteList": []
+  "favoriteList": [],
+  "suggestions": []
 }

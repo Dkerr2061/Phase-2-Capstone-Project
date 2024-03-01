@@ -11,7 +11,8 @@ function NewMovieForm(){
     director: "",
     genre: "",
     description: "",
-    image: ""
+    image: "",
+    favorite: false
   })
 
   const navigate = useNavigate()
@@ -19,7 +20,8 @@ function NewMovieForm(){
 
   function handleNewMovieSubmit(event) {
     event.preventDefault()
-    addNewMovie(formData)
+    const movieYear = parseInt(formData.year)
+    addNewMovie({...formData, year: movieYear})
 
     setFormData({
       name: "",
@@ -41,7 +43,7 @@ function NewMovieForm(){
 
   return(
    
-    <form onSubmit={handleNewMovieSubmit}>
+    <form className="submit-form" onSubmit={handleNewMovieSubmit}>
       <label>Movie Name: </label>
       <input 
       type="text" 
