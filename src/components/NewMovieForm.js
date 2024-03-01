@@ -42,7 +42,7 @@ function NewMovieForm(){
 
 
   return(
-   
+   <div className="center-form">
     <form className="submit-form" onSubmit={handleNewMovieSubmit}>
       <label>Movie Name: </label>
       <input 
@@ -95,8 +95,8 @@ function NewMovieForm(){
       />
       <br/>
       <label>Description: </label>
-      <input 
-      type="text-content" 
+      <textarea 
+      type="text" 
       name="description" 
       placeholder="Add Description" 
       value={formData.description} 
@@ -114,9 +114,9 @@ function NewMovieForm(){
       required
       />
       <br/>
-      <button type="submit">Add Movie</button>
+      <button type="submit" className="submit-button">Add Movie</button>
     </form>
-    
+  </div> 
   
   )
 }
