@@ -253,6 +253,17 @@
       "description": "Tanjiro Kamado, joined with Inosuke Hashibira, a boy raised by boars who wears a boar's head, and Zenitsu Agatsuma, a scared boy who reveals his true power when he sleeps, board the Infinity Train on a new mission with the Flame Pillar, Kyojuro Rengoku, to defeat a demon who has been tormenting the people and killing the demon slayers who oppose it!",
       "image": "https://m.media-amazon.com/images/M/MV5BODI2NjdlYWItMTE1ZC00YzI2LTlhZGQtNzE3NzA4MWM0ODYzXkEyXkFqcGdeQXVyNjU1OTg4OTM@._V1_FMjpg_UX1000_.jpg",
       "favorite": false
+    },
+    {
+      "id": "6129",
+      "name": "The Cabin in the Woods",
+      "year": 2011,
+      "actor": "Kristen Connolly",
+      "director": "Drew Goddard",
+      "genre": "Horror",
+      "description": "Five teenagers head off for a weekend at a secluded cabin in the woods. They arrive to find they are quite isolated with no means of communicating with the outside world. When the cellar door flings itself open, they of course go down to investigate. They find an odd assortment of relics and curios, but when one of the women, Dana, reads from a book, she awakens a family of deadly zombie killers. However, there's far more going on than meets the eye.",
+      "image": "https://m.media-amazon.com/images/I/81+TuC6oQ8L._AC_UF350,350_QL50_.jpg",
+      "favorite": false
     }
   ],
   "favoriteList": [
