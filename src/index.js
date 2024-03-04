@@ -7,9 +7,9 @@ import ErrorPage from './pages/ErrorPage';
 import Home from './components/Home';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import MovieList from './components/MovieList';
 import NewMovieForm from './pages/NewMovieForm';
-import AddToFavorite from './components/AddToFavorite';
+// import AddToFavorite from './components/AddToFavorite';
+import FavoriteList from './components/FavoriteList';
 
 
 const router = createBrowserRouter([
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/favorite_movies",
-        element: <AddToFavorite/>
+        element: <FavoriteList/>
       },
       {
         path: "/add_movies",
