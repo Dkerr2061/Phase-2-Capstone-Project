@@ -8,7 +8,6 @@ import Home from './components/Home';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import NewMovieForm from './pages/NewMovieForm';
-// import AddToFavorite from './components/AddToFavorite';
 import FavoriteList from './components/FavoriteList';
 
 

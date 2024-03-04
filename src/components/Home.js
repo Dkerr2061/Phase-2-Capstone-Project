@@ -22,6 +22,7 @@ function Home() {
     setSearchText(event.target.value)
   }
 
+
   return (
     <div>
       <Search onSearchText={onSearchText} searchText={searchText}/>
