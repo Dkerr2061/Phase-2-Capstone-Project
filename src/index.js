@@ -9,6 +9,7 @@ import Home from './components/Home';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import MovieList from './components/MovieList';
 import NewMovieForm from './pages/NewMovieForm';
+import AddToFavorite from './components/AddToFavorite';
 
 const router = createBrowserRouter([
   {
@@ -18,19 +19,15 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <MovieList/>
+        element: <Home/>
       },
       {
         path: "/favorite_movies",
-        element: <h1>Favorite movies go here</h1>
+        element: <AddToFavorite/>
       },
       {
         path: "/add_movies",
         element: <NewMovieForm/>
-      },
-      {
-        path: "/suggestions",
-        element: <h1>Suggestions go here</h1>
       },
       {
         path: "/cart",
@@ -43,6 +40,10 @@ const router = createBrowserRouter([
         ]
       }
     ]
+  },
+  {
+    path: "/suggestions",
+    element: <h1>Suggestions go here</h1>
   }
 ])
 

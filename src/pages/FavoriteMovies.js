@@ -1,5 +1,6 @@
-function Movie({movie}) {
 
+
+function FavoriteMovies({movie}) {
   const {name, image} = movie
   
 
@@ -15,4 +16,4 @@ function Movie({movie}) {
   )
 }
 
-export default Movie;
+export default FavoriteMovies;
