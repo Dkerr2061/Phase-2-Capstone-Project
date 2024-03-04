@@ -265,18 +265,5 @@
       "image": "https://m.media-amazon.com/images/I/81+TuC6oQ8L._AC_UF350,350_QL50_.jpg",
       "favorite": false
     }
-  ],
-  "favoriteList": [
-    {
-      "id": "fda3",
-      "name": "Berserk: The Golden Age Arc III - The Advent",
-      "year": 2013,
-      "actor": "Hiroaki Iwanaga",
-      "director": "Toshiyuki Kubooka",
-      "genre": "Fantasy",
-      "description": "A year has passed since Guts parted ways with Griffith. The Band of the Hawks is plotting a rescue mission to save Griffith who is confined to prison. One night, a group of assassins attack the band, and a bloody battle for survival begins. Just as things are beginning to look grim for them, Guts reappears and saves them. Guts rejoins his friends and embarks on a mission to save Griffith, however.",
-      "image": "https://m.media-amazon.com/images/M/MV5BMDYxMmY3NGQtM2E2OC00ODNjLWFiNmQtNmIzNjljMTM1NWMyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc2NjA5MTU@._V1_.jpg",
-      "favorite": false
-    }
   ]
 }

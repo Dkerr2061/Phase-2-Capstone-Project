@@ -5,7 +5,11 @@ function FavoriteList() {
   const {movies} = useOutletContext()
  
   const filteredFavorites = movies.filter( movie => {
-    return movie.favorite === true
+     if(movie.favorite === true) {
+      return true
+     } else {
+      return false
+     }
   })
 
   const favoriteMovie = filteredFavorites.map( movie => {

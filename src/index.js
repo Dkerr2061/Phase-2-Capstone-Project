@@ -9,6 +9,7 @@ import Home from './components/Home';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import NewMovieForm from './pages/NewMovieForm';
 import FavoriteList from './components/FavoriteList';
+import MovieDetails from './components/MovieDetails';
 
 
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/add_movies",
         element: <NewMovieForm/>
+      },
+      {
+        path: "/profile/:id",
+        element: <MovieDetails/>
       },
       {
         path: "/cart",
