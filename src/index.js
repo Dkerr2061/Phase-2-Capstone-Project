@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
-import ErrorPage from './components/ErrorPage';
+import ErrorPage from './pages/ErrorPage';
 import Home from './components/Home';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
@@ -34,7 +34,13 @@ const router = createBrowserRouter([
       },
       {
         path: "/cart",
-        element: <h1>Items in cart go here</h1>
+        element: <h1>Items in cart go here</h1>,
+        children: [
+          {
+            path: "/cart",
+            element: <h1>Checkout message goes here!</h1>
+          }
+        ]
       }
     ]
   }

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import { useOutletContext } from "react-router-dom";
 
 function NewMovieForm(){
@@ -15,7 +15,7 @@ function NewMovieForm(){
     favorite: false
   })
 
-  const navigate = useNavigate()
+  // const navigate = useNavigate()
   const {addNewMovie} = useOutletContext()
 
   function handleNewMovieSubmit(event) {
@@ -32,7 +32,7 @@ function NewMovieForm(){
       description: "",
       image: ""
     })
-    navigate("/")
+    // navigate("/")
     
   }
 

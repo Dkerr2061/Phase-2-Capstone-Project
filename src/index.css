@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+body{
+  background-color: blue;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.website-name {
+  color: yellow;
+
+}
+
 .center-form {
   display: flex;
   justify-content: center;
@@ -49,7 +60,7 @@ input[type="submit"]:hover {
 }
 
 label {
-  color: black;
+  color: yellow;
   font-weight: bold;
   font-family: miller-display;
   font-size: 20px;
@@ -58,8 +69,8 @@ label {
 .submit-button {
   cursor: pointer;
   background-color: black;
-  color: white;
-  border: 1px solid white;
+  color: yellow;
+  border: 1px solid yellow;
   font-family: miller-display;
   border-radius: 30px;
   width: 30;
@@ -89,4 +100,90 @@ label {
   font-size: 15px;
   padding-left: 30px;
   padding-right: 30px;
+}
+
+
+.errot-text {
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.error-button{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  font-family: miller-display;
+  border-radius: 30px;
+  width: 30;
+  font-size: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-self: center;
+   transition-duration: 0.4s;
+}
+
+.cards {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 1rem;
+  box-shadow: 0 0 7px 0 #ddd;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+  background-color: yellow;
+}
+
+.card .image {
+  height: 225px;
+  position: relative;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.card .image img {
+  max-width: 300px;
+  max-height: 225px;
+  width: auto;
+  height: auto;
+}
+
+.card .details {
+  padding: 0.5rem;
+}
+
+.card .details strong {
+  font-family: serif;
+  font-size: 1rem;
+}
+
+.searchbar {
+  flex: 1 1 auto;
+  margin: 0 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.searchbar input {
+  width: 90%;
+  font-size: 1rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding-left: 0.5rem;
+}
+
+.searchbar button {
+  padding: 0 0.25rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }

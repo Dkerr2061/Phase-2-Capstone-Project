@@ -9,7 +9,7 @@ function MovieList() {
   })
   return (
     <div>
-      <ul>
+      <ul className="cards">
         {movieInfo}
       </ul>
     </div>

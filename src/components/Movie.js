@@ -1,8 +1,12 @@
 function Movie({movie}) {
   return(
-    <li>
-      <img src={movie.image}/>
-      <h4>{movie.name}</h4>
+    <li className="card">
+      <div className="image">
+        <img src={movie.image}/>
+      </div>
+      <div className="details">
+        <strong>{movie.name}</strong>
+      </div>
     </li>
   )
 }

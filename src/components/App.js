@@ -1,16 +1,34 @@
 import { Outlet } from "react-router-dom";
 import { useState, useEffect } from "react";
 import NavBar from "./NavBar";
+import Search from "./Search";
 
 
 function App() {
   const [ movies, setMovies ] = useState([])
+  const [ searchText, setSearchText ] = useState('')
 
   useEffect(() => {
     fetch('http://localhost:3000/movieList')
       .then(res => res.json())
       .then(movieData => setMovies(movieData))
   }, [])
+
+
+  const filteredMovies = movies.filter(movie => {
+    if( searchText === '') {
+      return true
+    } else {
+      return movie.name.toLowerCase().includes(searchText.toLowerCase()) || 
+      movie.actor.toLowerCase().includes(searchText.toLowerCase()) ||
+      movie.director.toLowerCase().includes(searchText.toLowerCase())
+    }
+  })
+
+  function onSearchText(event) {
+    setSearchText(event.target.value)
+  }
+
 
   function addNewMovie(newMovie) {
     fetch('http://localhost:3000/movieList', {
@@ -31,10 +49,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>This is the home page.</h1>
+        <h1 className="website-name">Movie Buster!</h1>
       </header>
       <NavBar/>
-      <Outlet context={{ movies: movies, addNewMovie: addNewMovie}}/>
+      <Search onSearchText={onSearchText} searchText={searchText}/>
+      <Outlet context={{ movies: filteredMovies, addNewMovie: addNewMovie}}/>
     </div>
   );
 }
