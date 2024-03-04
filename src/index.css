@@ -175,7 +175,7 @@ label {
 }
 
 .searchbar input {
-  width: 90%;
+  width: 30%;
   font-size: 1rem;
   height: 2rem;
   margin-right: 0.5rem;
@@ -189,4 +189,23 @@ label {
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+
+.searchbar label {
+  color: yellow;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+}
+
+.suggestion-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.suggestion-header {
+  text-align: center;
+  color: yellow;
+  font-weight: bold;
+  font-size: 60px;
 }

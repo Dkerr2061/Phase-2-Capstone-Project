@@ -8,6 +8,7 @@ return(
     <input
     type="text"
     id="search"
+    className="search-input"
     placeholder="Search by Name, Actor or Director"
     onChange={onSearchText}
     value={searchText}

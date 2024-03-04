@@ -11,6 +11,7 @@ import MovieList from './components/MovieList';
 import NewMovieForm from './pages/NewMovieForm';
 import AddToFavorite from './components/AddToFavorite';
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -40,10 +41,6 @@ const router = createBrowserRouter([
         ]
       }
     ]
-  },
-  {
-    path: "/suggestions",
-    element: <h1>Suggestions go here</h1>
   }
 ])
 
