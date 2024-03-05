@@ -112,17 +112,6 @@
       "favorite": false
     },
     {
-      "id": "11",
-      "name": "Deadpool",
-      "year": 2016,
-      "actor": "Ryan Reynolds",
-      "director": "Tim Miller",
-      "genre": "Comedy",
-      "description": "This is the origin story of former Special Forces operative turned mercenary Wade Wilson, who after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
-      "image": "https://m.media-amazon.com/images/I/51Gh9OaWVcL._AC_UF1000,1000_QL80_.jpg",
-      "favorite": false
-    },
-    {
       "id": "12",
       "name": "Lock, Stock and Two Smoking Barrels",
       "year": 1998,
