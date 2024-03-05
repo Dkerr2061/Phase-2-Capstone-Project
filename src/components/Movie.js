@@ -1,13 +1,13 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Movie({movie, deleteMovie}) {
 
   const {name, image, favorite, id} = movie
   const [ isFavorite, setIsFavorite ] = useState(favorite)
+  const navigate = useNavigate()
  
   function toggleFavorite() {
-    console.log(id)
     fetch(`http://localhost:3000/movieList/${id}`, {
       method: 'PATCH',
       headers: {
@@ -21,6 +21,7 @@ function Movie({movie, deleteMovie}) {
       .then(updatedData => setIsFavorite(movie, updatedData))
 
       setIsFavorite(!isFavorite)
+      navigate("/favorite_movies")
   }
 
   function handleMovieDeleteButton() {

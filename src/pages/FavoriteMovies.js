@@ -8,7 +8,6 @@ function FavoriteMovies({movie}) {
 
 
   function toggleFavorite() {
-    console.log(id)
     fetch(`http://localhost:3000/movieList/${id}`, {
       method: 'PATCH',
       headers: {
