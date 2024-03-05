@@ -11,7 +11,7 @@ function MovieDetails() {
     fetch(`http://localhost:3000/movieList/${id}`)
     .then(res => res.json())
     .then(detailData => setMovies(detailData))
-  }, [])
+  }, [id])
   
   
 
@@ -20,7 +20,7 @@ function MovieDetails() {
     {movies ? 
    <>
       <h2>{movies.name}</h2>
-      <img src={movies.image}/>
+      <img src={movies.image} alt={movies.name}/>
       <h3>Release Year: {movies.year}</h3>
       <h4>Main Actor: {movies.actor}</h4>
       <h4>Director: {movies.director}</h4>
