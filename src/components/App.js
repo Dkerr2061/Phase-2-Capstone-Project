@@ -44,7 +44,12 @@ function App() {
         <h1 className="website-name">Movie Buster!</h1>
       </header>
       <NavBar/>
-      <Outlet context={{ movies: movies, addNewMovie: addNewMovie, deleteMovie: deleteMovie}}/>
+      <Outlet 
+      context={{ 
+        movies: movies, 
+        addNewMovie: addNewMovie, 
+        deleteMovie: deleteMovie
+      }}/>
     </div>
   );
 }

@@ -1,16 +1,31 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function FavoriteMovies({movie}) {
+  const {name, image, favorite, id} = movie
+  const [ isFavorite, setIsFavorite ] = useState(favorite)
+  const navigate = useNavigate()
 
-  const {name, image, favorite} = movie
-  // const [ removeFavorite, setRemoveFavorite ] = useState(favorite)
 
-  // function handleClick() {
-  //   setRemoveFavorite((removeFavorite) => !removeFavorite)
-  //   movie.favorite = removeFavorite
-  // }
+  function toggleFavorite() {
+    console.log(id)
+    fetch(`http://localhost:3000/movieList/${id}`, {
+      method: 'PATCH',
+      headers: {
+        "Content-Type": "Application/JSON"
+      },
+      body: JSON.stringify({
+        favorite: !isFavorite
+      })
+    })
+      .then(res => res.json())
+      .then(updatedData => setIsFavorite(movie, updatedData))
+
+      setIsFavorite(!isFavorite)
+      navigate("/")
+  }
   
-
+  
   return(
     <li className="card">
       <div className="image">
@@ -19,7 +34,7 @@ function FavoriteMovies({movie}) {
       <div className="details">
         <strong>{name}</strong>
       </div>
-      <button onClick={(e) => console.log(e)}>Remove from Favorites</button>
+      <button onClick={toggleFavorite}>Remove from Favorites</button>
     </li>
   )
 }

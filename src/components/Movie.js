@@ -5,10 +5,22 @@ function Movie({movie, deleteMovie}) {
 
   const {name, image, favorite, id} = movie
   const [ isFavorite, setIsFavorite ] = useState(favorite)
-
+ 
   function toggleFavorite() {
-    setIsFavorite(!isFavorite)
-    movie.favorite = !isFavorite
+    console.log(id)
+    fetch(`http://localhost:3000/movieList/${id}`, {
+      method: 'PATCH',
+      headers: {
+        "Content-Type": "Application/JSON"
+      },
+      body: JSON.stringify({
+        favorite: !isFavorite
+      })
+    })
+      .then(res => res.json())
+      .then(updatedData => setIsFavorite(movie, updatedData))
+
+      setIsFavorite(!isFavorite)
   }
 
   function handleMovieDeleteButton() {
@@ -24,7 +36,7 @@ function Movie({movie, deleteMovie}) {
         <strong>{name}</strong>
       </div>
       <Link to={`/profile/${id}`}>View Movies Details</Link>
-      <button onClick={toggleFavorite}>Add to Favorite</button>
+      <button onClick={() => toggleFavorite()}>Add to Favorite</button>
       <button onClick={handleMovieDeleteButton}>Delete Movie</button>
     </li>
   )

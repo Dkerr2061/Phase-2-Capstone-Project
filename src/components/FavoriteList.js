@@ -17,9 +17,11 @@ function FavoriteList() {
   })
 
   return (
-    <>
-    {favoriteMovie}
-    </>
+    <div>
+      <ul className="cards">
+        {favoriteMovie}
+      </ul>
+    </div>
   )
 }
 
