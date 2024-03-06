@@ -1,32 +1,24 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-function Movie({movie, deleteMovie}) {
+function Movie({movie, deleteMovie, updateMovie}) {
 
   const {name, image, favorite, id} = movie
   const [ isFavorite, setIsFavorite ] = useState(favorite)
   const navigate = useNavigate()
  
-  function toggleFavorite() {
-    fetch(`http://localhost:3000/movieList/${id}`, {
-      method: 'PATCH',
-      headers: {
-        "Content-Type": "Application/JSON"
-      },
-      body: JSON.stringify({
-        favorite: !isFavorite
-      })
-    })
-      .then(res => res.json())
-      .then(updatedData => setIsFavorite(movie, updatedData))
-
-      setIsFavorite(!isFavorite)
-      navigate("/favorite_movies")
-  }
-
   function handleMovieDeleteButton() {
        deleteMovie(id)
   }
+
+  function toggleFavorite() {
+    const updatedFavoriteStatus = !isFavorite
+    const favoriteObj = { favorite: updatedFavoriteStatus}
+    updateMovie(id, favoriteObj)
+    setIsFavorite(updatedFavoriteStatus)
+    navigate("/favorite_movies")
+  }
+
 
   return(
     <li className="card">
@@ -37,7 +29,7 @@ function Movie({movie, deleteMovie}) {
         <strong>{name}</strong>
       </div>
       <Link to={`/profile/${id}`}>View Movies Details</Link>
-      <button onClick={() => toggleFavorite()}>Add to Favorite</button>
+      <button onClick={toggleFavorite}>Add to Favorite</button>
       <button onClick={handleMovieDeleteButton}>Delete Movie</button>
     </li>
   )

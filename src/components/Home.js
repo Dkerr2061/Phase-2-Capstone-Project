@@ -4,7 +4,7 @@ import { useOutletContext } from "react-router-dom";
 import MovieList from "./MovieList";
 
 function Home() {
-  const {movies, deleteMovie} = useOutletContext()
+  const {movies, deleteMovie, updateMovie} = useOutletContext()
   const [ searchText, setSearchText ] = useState('')
 
 
@@ -26,7 +26,7 @@ function Home() {
   return (
     <div>
       <Search onSearchText={onSearchText} searchText={searchText}/>
-      <MovieList movies={filteredMovies} deleteMovie={deleteMovie}/>
+      <MovieList movies={filteredMovies} deleteMovie={deleteMovie} updateMovie={updateMovie}/>
     </div>
   )
 }

@@ -15,7 +15,8 @@ function App() {
     fetch('http://localhost:3000/movieList', {
       method: 'POST',
       headers: {
-        'Content-Type': 'Application/JSON'
+        'Content-Type': 'Application/JSON',
+        "Accept": "application/json"
       },
       body: JSON.stringify({...newMovie})
     })
@@ -38,6 +39,25 @@ function App() {
       })
   }
 
+  function updateMovie(id, dataToUpdate) {
+    fetch(`http://localhost:3000/movieList/${id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "Application/JSON",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify(dataToUpdate)
+    })
+      .then(res => res.json())
+      .then(newData => setMovies(movies => movies.map(movie => {
+        if(movie.id === id) {
+          return newData
+        } else {
+          return movie
+        }
+      })))
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -48,7 +68,8 @@ function App() {
       context={{ 
         movies: movies, 
         addNewMovie: addNewMovie, 
-        deleteMovie: deleteMovie
+        deleteMovie: deleteMovie,
+        updateMovie: updateMovie
       }}/>
     </div>
   );
