@@ -11,7 +11,8 @@ function NewMovieForm(){
     genre: "",
     description: "",
     image: "",
-    favorite: false
+    favorite: false,
+    likes: 0
   })
 
  
