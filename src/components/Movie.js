@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 function Movie({movie, deleteMovie, updateMovie}) {
 
-  const {name, image, favorite, id} = movie
+  const {name, image, favorite, id, likes} = movie
   const [ isFavorite, setIsFavorite ] = useState(favorite)
   const navigate = useNavigate()
  
@@ -27,6 +27,8 @@ function Movie({movie, deleteMovie, updateMovie}) {
       </div>
       <div className="details">
         <strong>{name}</strong>
+        <br/>
+        <a>Likes: {likes}</a>
       </div>
       <Link to={`/profile/${id}`}>View Movies Details</Link>
       <button onClick={toggleFavorite}>Add to Favorite</button>

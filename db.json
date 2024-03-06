@@ -34,7 +34,7 @@
       "description": "Nicholas Van Orton is a very wealthy San Francisco banker, but he is an absolute loner, even spending his birthday alone. In the year of his 48th birthday (the age his father committed suicide) his brother Conrad, who has gone long ago and surrendered to addictions of all kinds, suddenly returns and gives Nicholas a card giving him entry to unusual entertainment provided by something called Consumer Recreation Services (CRS). Giving in to curiosity, Nicholas visits CRS and all kinds of weird and bad things start to happen to him.",
       "image": "https://m.media-amazon.com/images/M/MV5BOTc5ZGEyZTctOThhYi00NGNiLWIwYzEtYjJkZDNiMjA2MDIwXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_FMjpg_UX1000_.jpg",
       "favorite": false,
-      "likes": 0
+      "likes": 7
     },
     {
       "id": "4",
@@ -69,8 +69,8 @@
       "genre": "War",
       "description": "The story of Seita and Setsuko, two young Japanese siblings, living in the declining days of World War II. When an American firebombing separates the two children from their parents, the two siblings must rely completely on one another while they struggle to fight for their survival.",
       "image": "https://m.media-amazon.com/images/I/71+Uad84h-L._AC_UF894,1000_QL80_.jpg",
-      "favorite": false,
-      "likes": 0
+      "favorite": true,
+      "likes": 6
     },
     {
       "id": "7",
