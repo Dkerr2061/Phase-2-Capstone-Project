@@ -9,8 +9,8 @@
       "genre": "Sci-Fi",
       "description": "57 years after Ellen Ripley had a close encounter with the reptilian alien creature from the first movie, she is called back, this time, to help a group of highly trained colonial marines fight off against the sinister extraterrestrials. But this time, the aliens have taken over a space colony on the moon LV-426. When the colonial marines are called upon to search the deserted space colony, they later find out that they are up against more than what they bargained for. Using specially modified machine guns and enough firepower, it's either fight or die as the space marines battle against the aliens. As the Marines do their best to defend themselves, Ripley must attempt to protect a young girl who is the sole survivor of the nearly wiped out space colony.",
       "image": "https://movieposters2.com/images/1375483-b.jpg",
-      "favorite": false,
-      "likes": 0
+      "favorite": true,
+      "likes": 10
     },
     {
       "id": "2",
@@ -21,8 +21,8 @@
       "genre": "Crime",
       "description": "Jules Winnfield (Samuel L. Jackson) and Vincent Vega (John Travolta) are two hitmen who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace (Ving Rhames). Wallace has also asked Vincent to take his wife Mia (Uma Thurman) out a few days later when Wallace himself will be out of town. Butch Coolidge (Bruce Willis) is an aging boxer who is paid by Wallace to lose his fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiJsA2mWrlJFCi39GF3BWF_t9UgeLgUtXD3H7JTNW3Nkv9evDIP7PW0tzN9McQizmB2Xg&usqp=CAU",
-      "favorite": true,
-      "likes": 0
+      "favorite": false,
+      "likes": 8
     },
     {
       "id": "3",
@@ -45,8 +45,8 @@
       "genre": "Drama",
       "description": "After the murder of his beloved wife, Danny Parker is set adrift in a world where nothing is as it seems. On his journey he befriends slacker Jimmy the Finn and becomes involved in rescuing his neighbor Colette from her own demons. Danny is antagonized by undercover narcotics agents and sadistic dealer Pooh-Bear.",
       "image": "https://m.media-amazon.com/images/M/MV5BMjE5ODgwNzYyN15BMl5BanBnXkFtZTYwNDE3OTg5._V1_.jpg",
-      "favorite": false,
-      "likes": 9
+      "favorite": true,
+      "likes": 16
     },
     {
       "id": "5",
@@ -58,7 +58,7 @@
       "description": "While protecting his village from rampaging boar-god/demon, a confident young warrior, Ashitaka, is stricken by a deadly curse. To save his life, he must journey to the forests of the west. Once there, he's embroiled in a fierce campaign that humans were waging on the forest. The ambitious Lady Eboshi and her loyal clan use their guns against the gods of the forest and a brave young woman, Princess Mononoke, who was raised by a wolf-god. Ashitaka sees the good in both sides and tries to stem the flood of blood. This is met by animosity by both sides as they each see him as supporting the enemy.",
       "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/47e506d2-e6f3-4322-9d6a-8407e7a3376e/d225fql-e4558b4a-0431-4685-93b7-789fd5af5520.jpg/v1/fill/w_800,h_1000,q_75,strp/princess_mononoke_movie_poster_by_alone_sama_d225fql-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ3ZTUwNmQyLWU2ZjMtNDMyMi05ZDZhLTg0MDdlN2EzMzc2ZVwvZDIyNWZxbC1lNDU1OGI0YS0wNDMxLTQ2ODUtOTNiNy03ODlmZDVhZjU1MjAuanBnIiwiaGVpZ2h0IjoiPD0xMDAwIiwid2lkdGgiOiI8PTgwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC80N2U1MDZkMi1lNmYzLTQzMjItOWQ2YS04NDA3ZTdhMzM3NmVcL2Fsb25lLXNhbWEtNC5wbmciLCJvcGFjaXR5Ijo5NSwicHJvcG9ydGlvbnMiOjAuNDUsImdyYXZpdHkiOiJjZW50ZXIifX0.g0TwVf3B9lZ-j1JfAWUUCyxVKokgd92ZsUz70KKC8EA",
       "favorite": false,
-      "likes": 0
+      "likes": 11
     },
     {
       "id": "6",

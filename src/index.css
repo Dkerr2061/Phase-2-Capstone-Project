@@ -69,7 +69,7 @@ label {
   font-size: 20px;
 }
 
-.submit-button,
+
 .favorite-button,
 .delete-button,
 .likes-button,
@@ -80,8 +80,8 @@ label {
   border: 1px solid #c89666;
   font-family: miller-display;
   border-radius: 30px;
-  width: 30;
-  font-size: 30px;
+  width: 25;
+  font-size: 15px;
   padding-left: 50px;
   padding-right: 50px;
   align-self: center;
@@ -89,7 +89,26 @@ label {
   
 }
 
-.submit-button:hover {
+.submit-button {
+  cursor: pointer;
+  background-color: black;
+  color: #c89666;
+  border: 1px solid #c89666;
+  font-family: miller-display;
+  border-radius: 30px;
+  width: 25;
+  font-size: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-self: center;
+   transition-duration: 0.4s; 
+}
+
+.submit-button:hover,
+.favorite-button:hover,
+.delete-button:hover,
+.likes-button:hover,
+.back-button:hover {
   background-color: gray;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -102,12 +121,13 @@ label {
 
 .nav-button {
   float: left;
-  border: 1px solid black;
-  background-color: black;
+  border: 1px solid #1d1e22;
+  background-color: #1d1e22;
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   padding-left: 30px;
   padding-right: 30px;
+  text-decoration: none;
 }
 
 
@@ -185,13 +205,13 @@ label {
 .searchbar input {
   width: 20%;
   font-size: 1rem;
-  height: 2rem;
-  margin-right: 0.5rem;
+  height: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
   border: 1px solid #ccc;
   border-radius: 3px;
-  padding-left: 0.5rem;
-  vertical-align: middle;
-  background-color: transparent;
+  padding-left: 0.2rem;
+  background-color: white;
 }
 
 .searchbar button {
@@ -212,28 +232,51 @@ label {
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 16px;
-  max-width: 400px;
+  max-width: flex;
   margin: 0 auto;
   background-color: #2d545e;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
 }
 
 .detail-card img {
-  max-width: 100%;
+  max-width: 250px;
   height: auto;
   margin-bottom: 16px;
 }
 
 .detail-card h2 {
-  font-size: 24px;
+  font-size: 35px;
   margin-bottom: 8px;
+  font-family: cursive;
 }
 
 .detail-card h3,
 .detail-card h4 {
   margin-bottom: 4px;
+  font-size: 20px;
+  font-family: cursive;
 }
 
 .detail-card p {
   margin-bottom: 16px;
+  font-size: 20px;
+  font-family: miller-display;
+}
+
+.card-h3 {
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.likes-text {
+  font-size: 20px;
+  font-family: miller-display;
+  color: #c89666;
+}
+
+.link {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
 }

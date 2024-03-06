@@ -23,9 +23,9 @@ function FavoriteMovies({movie, updateMovie}) {
       <div className="details">
         <h3 className="card-h3">{name}</h3>
         <br/>
-        <a>Likes: {likes}</a>
+        <a className="likes-text">Likes: {likes}</a>
       </div>
-      <Link to={`/profile/${id}`}>View Movies Details</Link>
+      <Link className="link" to={`/profile/${id}`}>View Movies Details</Link>
       <button 
       className="favorite-button" 
       onClick={toggleFavorite}

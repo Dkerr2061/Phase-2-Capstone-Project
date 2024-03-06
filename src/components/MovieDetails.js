@@ -30,7 +30,7 @@ function MovieDetails() {
     {movies ? 
    <>
       <h2>{movies.name}</h2>
-      <img src={movies.image} alt={movies.name}/>
+      <img src={movies.image} alt={movies.name} className="detail-image"/>
       <h3>Release Year: {movies.year}</h3>
       <h4>Main Actor: {movies.actor}</h4>
       <h4>Director: {movies.director}</h4>
