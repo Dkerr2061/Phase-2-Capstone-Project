@@ -31,9 +31,19 @@ function Movie({movie, deleteMovie, updateMovie}) {
         <a>Likes: {likes}</a>
       </div>
       <Link to={`/profile/${id}`}>View Movies Details</Link>
-      <button className="favorite-button" onClick={toggleFavorite}>Add to Favorite</button>
+      <button 
+      className="favorite-button" 
+      onClick={toggleFavorite}
+      >
+      Add to Favorite
+      </button>
       <br/>
-      <button className="delete-button" onClick={handleMovieDeleteButton}>Delete Movie</button>
+      <button
+      className="delete-button" 
+      onClick={handleMovieDeleteButton}
+      >
+      Delete Movie
+      </button>
     </li>
   )
 }

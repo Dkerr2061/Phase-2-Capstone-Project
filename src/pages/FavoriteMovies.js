@@ -26,7 +26,12 @@ function FavoriteMovies({movie, updateMovie}) {
         <a>Likes: {likes}</a>
       </div>
       <Link to={`/profile/${id}`}>View Movies Details</Link>
-      <button className="favorite-button" onClick={toggleFavorite}>Remove from Favorites</button>
+      <button 
+      className="favorite-button" 
+      onClick={toggleFavorite}
+      >
+      Remove from Favorites
+      </button>
     </li>
   )
 }
