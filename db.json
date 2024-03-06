@@ -21,7 +21,7 @@
       "genre": "Crime",
       "description": "Jules Winnfield (Samuel L. Jackson) and Vincent Vega (John Travolta) are two hitmen who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace (Ving Rhames). Wallace has also asked Vincent to take his wife Mia (Uma Thurman) out a few days later when Wallace himself will be out of town. Butch Coolidge (Bruce Willis) is an aging boxer who is paid by Wallace to lose his fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiJsA2mWrlJFCi39GF3BWF_t9UgeLgUtXD3H7JTNW3Nkv9evDIP7PW0tzN9McQizmB2Xg&usqp=CAU",
-      "favorite": false,
+      "favorite": true,
       "likes": 0
     },
     {
@@ -46,7 +46,7 @@
       "description": "After the murder of his beloved wife, Danny Parker is set adrift in a world where nothing is as it seems. On his journey he befriends slacker Jimmy the Finn and becomes involved in rescuing his neighbor Colette from her own demons. Danny is antagonized by undercover narcotics agents and sadistic dealer Pooh-Bear.",
       "image": "https://m.media-amazon.com/images/M/MV5BMjE5ODgwNzYyN15BMl5BanBnXkFtZTYwNDE3OTg5._V1_.jpg",
       "favorite": false,
-      "likes": 0
+      "likes": 9
     },
     {
       "id": "5",
@@ -69,7 +69,7 @@
       "genre": "War",
       "description": "The story of Seita and Setsuko, two young Japanese siblings, living in the declining days of World War II. When an American firebombing separates the two children from their parents, the two siblings must rely completely on one another while they struggle to fight for their survival.",
       "image": "https://m.media-amazon.com/images/I/71+Uad84h-L._AC_UF894,1000_QL80_.jpg",
-      "favorite": true,
+      "favorite": false,
       "likes": 6
     },
     {

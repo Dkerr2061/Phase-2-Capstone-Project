@@ -37,9 +37,9 @@ function MovieDetails() {
       <h4>Genre: {movies.genre}</h4>
       <h4>Description:</h4>
       <p>{movies.description}</p>
-      <button onClick={handleLikeButton}>Likes: {movies.likes}</button>
+      <button className="likes-button" onClick={handleLikeButton}>Likes: {movies.likes}</button>
       <br/>
-      <button onClick={() => navigate("/")}>Back to Home Page</button>
+      <button className="back-button" onClick={() => navigate("/")}>Back to Home Page</button>
    </>
     : null 
   }

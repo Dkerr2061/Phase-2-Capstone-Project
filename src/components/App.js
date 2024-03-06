@@ -61,7 +61,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="website-name">Movie Buster!</h1>
+        <h1 className="website-name">FlixFix Junction</h1>
       </header>
       <NavBar/>
       <Outlet 

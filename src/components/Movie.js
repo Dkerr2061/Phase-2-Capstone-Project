@@ -26,13 +26,14 @@ function Movie({movie, deleteMovie, updateMovie}) {
         <img src={image} alt={name}/>
       </div>
       <div className="details">
-        <strong>{name}</strong>
+        <h3 className="card-h3">{name}</h3>
         <br/>
         <a>Likes: {likes}</a>
       </div>
       <Link to={`/profile/${id}`}>View Movies Details</Link>
-      <button onClick={toggleFavorite}>Add to Favorite</button>
-      <button onClick={handleMovieDeleteButton}>Delete Movie</button>
+      <button className="favorite-button" onClick={toggleFavorite}>Add to Favorite</button>
+      <br/>
+      <button className="delete-button" onClick={handleMovieDeleteButton}>Delete Movie</button>
     </li>
   )
 }
