@@ -9,7 +9,8 @@ import Home from './components/Home';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import NewMovieForm from './pages/NewMovieForm';
 import FavoriteList from './components/FavoriteList';
-import MovieDetails from './components/MovieDetails';
+import MovieDetails from './pages/MovieDetails';
+
 
 
 const router = createBrowserRouter([
@@ -33,16 +34,6 @@ const router = createBrowserRouter([
       {
         path: "/profile/:id",
         element: <MovieDetails/>
-      },
-      {
-        path: "/cart",
-        element: <h1>Items in cart go here</h1>,
-        children: [
-          {
-            path: "/cart",
-            element: <h1>Checkout message goes here!</h1>
-          }
-        ]
       }
     ]
   }
