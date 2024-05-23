@@ -22,7 +22,7 @@
       "description": "Jules Winnfield (Samuel L. Jackson) and Vincent Vega (John Travolta) are two hitmen who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace (Ving Rhames). Wallace has also asked Vincent to take his wife Mia (Uma Thurman) out a few days later when Wallace himself will be out of town. Butch Coolidge (Bruce Willis) is an aging boxer who is paid by Wallace to lose his fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiJsA2mWrlJFCi39GF3BWF_t9UgeLgUtXD3H7JTNW3Nkv9evDIP7PW0tzN9McQizmB2Xg&usqp=CAU",
       "favorite": false,
-      "likes": 18
+      "likes": 25
     },
     {
       "id": "4",
@@ -47,18 +47,6 @@
       "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/47e506d2-e6f3-4322-9d6a-8407e7a3376e/d225fql-e4558b4a-0431-4685-93b7-789fd5af5520.jpg/v1/fill/w_800,h_1000,q_75,strp/princess_mononoke_movie_poster_by_alone_sama_d225fql-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ3ZTUwNmQyLWU2ZjMtNDMyMi05ZDZhLTg0MDdlN2EzMzc2ZVwvZDIyNWZxbC1lNDU1OGI0YS0wNDMxLTQ2ODUtOTNiNy03ODlmZDVhZjU1MjAuanBnIiwiaGVpZ2h0IjoiPD0xMDAwIiwid2lkdGgiOiI8PTgwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC80N2U1MDZkMi1lNmYzLTQzMjItOWQ2YS04NDA3ZTdhMzM3NmVcL2Fsb25lLXNhbWEtNC5wbmciLCJvcGFjaXR5Ijo5NSwicHJvcG9ydGlvbnMiOjAuNDUsImdyYXZpdHkiOiJjZW50ZXIifX0.g0TwVf3B9lZ-j1JfAWUUCyxVKokgd92ZsUz70KKC8EA",
       "favorite": false,
       "likes": 14
-    },
-    {
-      "id": "6",
-      "name": "Grave of the Fireflies",
-      "year": 1988,
-      "actor": "Tsutomu Tatsumi",
-      "director": "Isao Takahata",
-      "genre": "War",
-      "description": "The story of Seita and Setsuko, two young Japanese siblings, living in the declining days of World War II. When an American firebombing separates the two children from their parents, the two siblings must rely completely on one another while they struggle to fight for their survival.",
-      "image": "https://m.media-amazon.com/images/I/71+Uad84h-L._AC_UF894,1000_QL80_.jpg",
-      "favorite": false,
-      "likes": 6
     },
     {
       "id": "7",
@@ -190,7 +178,7 @@
       "genre": "Fantasy",
       "description": "Suzume, a 17-year-old girl who lives in a quiet town in Kyushu, meets a young man on a journey \"looking for doors.\" Suzume follows him to a dilapidated building in the mountains and finds a free-standing, undisturbed door as if \"it\" alone were saved from devastation. Suzume feels drawn by an invisible power and reaches out to the door. Soon, doors all over Japan start opening one after another. The doors that opened must be closed to shut out calamity that lies on the other side. The places she wanders into have a sky where all hours of the day seem to blend together. Beckoned by the mysterious doors, Suzume's \"journey of closing doors\" begins.",
       "image": "https://i.ebayimg.com/images/g/bnAAAOSw3HdkTvqm/s-l1200.jpg",
-      "favorite": true,
+      "favorite": false,
       "likes": 14
     },
     {
@@ -227,7 +215,7 @@
       "description": "It is the year 2029. Technology has advanced so far that cyborgs are commonplace. In addition, human brains can connect to the internet directly. Major Motoko Kusanagi is an officer in Section 9, an elite, secretive police division that deals with special operations, including counter terrorism and cyber crime. She is currently on the trail of the Puppet Master, a cyber criminal who hacks into the brains of cyborgs in order to obtain information and to commit other crimes.",
       "image": "https://images.fandango.com/ImageRenderer/820/0/redesign/static/img/default_poster.png/0/images/masterrepository/fandango/728/gits-400x600.jpg",
       "favorite": false,
-      "likes": 0
+      "likes": 7
     },
     {
       "id": "fda3",
@@ -288,6 +276,18 @@
       "image": "https://m.media-amazon.com/images/I/512zetpdQjL._AC_UF894,1000_QL80_.jpg",
       "favorite": false,
       "likes": 7
+    },
+    {
+      "id": "20b7",
+      "name": "Dune",
+      "year": 2021,
+      "actor": "Timothée Chalamet",
+      "director": " Denis Villeneuve",
+      "genre": "Sci-Fi",
+      "description": "A mythic and emotionally charged hero's journey, \"Dune\" tells the story of Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, who must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive",
+      "image": "https://m.media-amazon.com/images/I/61QbqeCVm0L.jpg",
+      "favorite": false,
+      "likes": 10
     }
   ]
 }
